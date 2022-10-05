@@ -3,11 +3,11 @@
 
 //PHP pour se connecter à la base de donnée
 
-$db="dbs8778128";
-$dbhost="db5010360043.hosting-data.io";
-$dbport=3306;
-$dbuser="dbu2313881";
-$dbpasswd="Nico0405*";
+$db="d44bhvg4rcgin0";
+$dbhost="ec2-52-30-159-47.eu-west-1.compute.amazonaws.com";
+$dbport=5432;
+$dbuser="qpsqnueqtzaalp";
+$dbpasswd="d8179da39241c3774da94d0b63d50c86ba042369fd05abdee340d3fdc02372b0";
 
 $auth = new PDO('mysql:host='.$dbhost.';port='.$dbport.';dbname='.$db.'', $dbuser, $dbpasswd);
 
